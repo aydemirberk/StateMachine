@@ -20,6 +20,7 @@ public override void OnCollisionEnter(AppleStateManager apple, Collision collisi
 {
     GameObject other = collision.gameObject;
 
+    //Will be added when player added.
     // if (other.CompareTag("Player"))
     // {
     // other.GetComponent<PlayerController>().addHealth();

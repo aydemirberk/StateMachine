@@ -3,10 +3,12 @@ using UnityEngine;
 public class AppleChewedState : AppleBaseState
 {
     float destroyCountdown = 5.0f;
+
 public override void EnterState(AppleStateManager apple)
 {
 
 }
+
 public override void UpdateState(AppleStateManager apple)
 {
     if (destroyCountdown>0)
@@ -15,10 +17,11 @@ public override void UpdateState(AppleStateManager apple)
     }
     else
     {
-    Object.Destroy(apple.gameObject);
+        Object.Destroy(apple.gameObject);
     }
 
 }
+
 public override void OnCollisionEnter(AppleStateManager apple, Collision collision)
 {
 
