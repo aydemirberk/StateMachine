@@ -1,2 +1,2 @@
 # StateMachine
-State Machine Exercise Project
+State Machine Design Pattern Exercise Project
